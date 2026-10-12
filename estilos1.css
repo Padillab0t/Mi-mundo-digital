@@ -1,0 +1,105 @@
+/* Restablecimiento básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8; /* Color de fondo general */
+    color: #2d3748;
+    padding: 20px;
+}
+
+/* Contenedor principal estructurado con DIV */
+#contenedor-principal {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 2px solid #319795; /* Borde personalizado */
+    border-radius: 8px;
+    padding: 25px;
+}
+
+/* Encabezado: Datos y foto del alumno */
+#encabezado {
+    display: flex;
+    align-items: center;
+    background-color: #e6fffa; /* Fondo suave personalizado */
+    border: 1px solid #b2f5ea;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+#foto-alumno {
+    width: 120px;
+    height: 140px;
+    margin-right: 20px;
+    border: 2px solid #319795;
+    background-color: #e2e8f0;
+}
+
+#foto-alumno img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#datos-alumno h2 {
+    color: #234e52;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+#datos-alumno p {
+    margin-bottom: 4px;
+    font-size: 0.95rem;
+}
+
+/* Sección de título */
+#titulo-seccion {
+    text-align: center;
+    background-color: #2b6cb0; /* Color primario personalizado */
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+#titulo-seccion h1 {
+    font-size: 1.5rem;
+}
+
+/* Bloques de texto y formato */
+#contenido-resena {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.bloque-texto {
+    margin-bottom: 15px;
+}
+
+.bloque-texto h3 {
+    color: #2b6cb0;
+    margin-bottom: 6px;
+    border-bottom: 2px solid #cbd5e0;
+    padding-bottom: 4px;
+}
+
+/* Subrayado solicitado en los requerimientos */
+.destacado-subrayado {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Pie de página */
+#pie-pagina {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #e2e8f0;
+    font-size: 0.85rem;
+    color: #718096;
+}
