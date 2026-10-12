@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica de Posiciones CSS</title>
+  <link rel="stylesheet" href="estilos-posiciones.css">
+</head>
+<body>
+
+  <!-- Elemento Sticky (Encabezado pegajoso) -->
+  <header class="header-sticky">
+    <h1>Práctica de Posiciones en CSS</h1>
+    <p>Navegación / Encabezado con <code>position: sticky</code></p>
+  </header>
+
+  <main class="main-container">
+    <section>
+      <h2>1. Position: Static</h2>
+      <p>Es la posición por defecto. Los elementos siguen el flujo normal del documento.</p>
+      <div class="box box-static">Estático (Static)</div>
+    </section>
+
+    <section>
+      <h2>2. Position: Relative</h2>
+      <p>Se desplaza respecto a su posición original usando <code>top</code>, <code>left</code>, etc.</p>
+      <div class="box box-relative">Relativo (Relative)</div>
+    </section>
+
+    <section>
+      <h2>3. Position: Absolute</h2>
+      <p>Se posiciona con respecto a su contenedor padre más cercano que tenga posición no estática (<code>position: relative</code>).</p>
+      <div class="relative-parent">
+        Contenedor Padre (<code>position: relative</code>)
+        <div class="box box-absolute">Absoluto (Absolute)</div>
+      </div>
+    </section>
+
+    <section style="height: 600px;">
+      <h2>4. Espacio para Probar Scroll</h2>
+      <p>Haz scroll hacia abajo para observar el comportamiento de <code>sticky</code> y <code>fixed</code>.</p>
+    </section>
+  </main>
+
+  <!-- Elemento Fixed (Caja fija en la esquina inferior derecha) -->
+  <div class="box box-fixed">
+    Fijo (Fixed)
+  </div>
+
+</body>
+</html>
