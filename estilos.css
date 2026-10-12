@@ -39,12 +39,37 @@ nav a:hover{
 nav li ul{
     display: none;
     position: absolute;
-    background-color: rgb(189, 5, 189);
+    background-color: rgb(218, 11, 218);
     min-width: 180px;
 }
 nav li:hover ul{
     display: block;
 }
+footer{
+    background-color: rgb(198, 5, 198);
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
 footer img{
     width: 200px;
+}
+section{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    min-width: 350;
+}
+.principal{
+    width: 70%;
+    background-color: rgb(198, 5, 198);
+    padding: 20px;
+    border: 2px solid rgb(198, 5, 198);
+}
+.secundario{
+    width: 30%;
+    background-color: rgb(198, 5, 198);
+    padding: 20px;
+    border: 2px solid rgb(198, 5, 198);
 }
